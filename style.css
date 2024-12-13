@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap');
+
+*{
+    margin: 0;
+}
+
+.probel {
+    width: 5%;
+}
+
+header {
+    padding: 1px 3%;
+    background-color: #6b99c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    font-family: "Pixelify Sans";
+    color: #fff;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+header>img {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.game{
+    display: flex;
+    border-radius: 10px;
+    margin: 75px;
+    height: 600px;
+    background-color: #E4E5EA;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    margin: 20px;
+    font-family: "Pixelify Sans";
+    font-size: 50px;
+}
+
+p{
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #6B99C3;
+    color: #fff;
+    font-family: "Tiny5";
+    font-size: 18px;
+}
+
+iframe{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer{
+    height: 200px;
+    background-color: #0C151C;
+}
+
+footer a{
+        display: flex;
+        text-decoration: none;
+        font-family: "Tiny5";
+        color: #fff;
+        font-size: 30px;
+        justify-content: center;
+        flex-wrap: center;
+        padding: 80px;
+}
